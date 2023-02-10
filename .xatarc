@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Saullo-Almeida-s-workspace-t5i2r5.us-east-1.xata.sh/db/remixatantd",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
