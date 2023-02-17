@@ -10,7 +10,7 @@ export const action: ActionFunction = async ({ request }) =>
 export default function Index() {
   const data = useActionData<typeof action>();
   return (
-    <div>
+    <div className="bg-slate-500">
       {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : null}
       <Form
         schema={schema}
